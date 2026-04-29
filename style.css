@@ -64,7 +64,7 @@ nav a:hover {
     display: flex; /* use flexbox for layout */
     gap: 20px; /* space between the image and text */
     max-width: 600px; /* limit the width of the fact box */
-    box-shadow: 0 10px 30px rgba(62, 39, 35, 0.15); /* Coffee-tinted shadow */
+    box-shadow: 0 10px 25px rgba(62, 39, 35, 0.15); /* Coffee-tinted shadow */
     
     transition: transform 0.3s ease;
 }
@@ -81,3 +81,12 @@ nav a:hover {
     border: none; /* remove default border */
 }
 
+.coffee-footer {
+    margin-top: 50px; /* space above the footer */
+    border-top: 1px solid #a1887f; /* light brown border on top */
+    padding: 20px; /* padding inside the footer */
+    color: #5d4037; /* A medium coffee brown */
+    font-size: 0.85em; /* smaller font size for the footer */
+    letter-spacing: 0.5px; /* add some spacing between letters */
+    text-align: center; /* center the text in the footer */
+}
