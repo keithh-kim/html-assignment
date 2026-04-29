@@ -8,6 +8,7 @@
 /* Styling the body */
 body {
     font-family: Georgia, serif; /* serif font */
+    font-size: medium; /* large font size */
     background-color: #f4f7f6; /* light gray background */
     display: flex;
     
@@ -36,25 +37,43 @@ nav li {
 nav a {
     text-decoration: none; /* remove underline
      */
+    text-align: center; /* center the text */
     color: darkblue; /* blue text */
     display: block; /* make the entire area clickable */
     padding: 10px; /* add padding for better clickability */
     border-radius: 5px; /* rounded corners */
     background-color: lightgray; /* light gray background */
     transition: background-color 0.3s ease; /* smooth transition for hover effect */
+    margin: 5px auto; /* center the links horizontally */
+    width: 200px; /* set a fixed width for the links */
 }
 
 nav a:hover {
     background-color: #007bff; /* blue background on hover */
     color: white; /* white text on hover */
-    padding: left 15px; /* add padding on hover */
+    padding: 15px; /* add padding on hover */
 }
-
+/* Styling the did you know fact box */
 .fact-box {
     background-color: #e8f4fd; /* light blue background */
     border-left: 10px solid #3498db; /* blue border on the left */
     margin-top: 40px; /* space above the fact box */
     border-radius: 12px; /* rounded corners */
     padding: 30px; /* padding inside the box */
+    align-items: center; /* center the content vertically */
+    display: flex; /* use flexbox for layout */
+    gap: 20px; /* space between the image and text */
+}
+
+.fact-text {
+    margin-top: 0; /* remove default margin */
+    color: #2c3e50; /* dark blue text */
+}
+
+.fact-image {
+    width: 150px; /* set a fixed width for the image */
+    height: auto; /* maintain aspect ratio */
+    border-radius: 8px; /* rounded corners for the image */
+    border: none; /* remove default border */
 }
 
