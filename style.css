@@ -63,6 +63,10 @@ nav a:hover {
     align-items: center; /* center the content vertically */
     display: flex; /* use flexbox for layout */
     gap: 20px; /* space between the image and text */
+    max-width: 600px; /* limit the width of the fact box */
+    box-shadow: 0 10px 30px rgba(62, 39, 35, 0.15); /* Coffee-tinted shadow */
+    
+    transition: transform 0.3s ease;
 }
 
 .fact-text {
