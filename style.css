@@ -49,3 +49,12 @@ nav a:hover {
     color: white; /* white text on hover */
     padding: left 15px; /* add padding on hover */
 }
+
+.fact-box {
+    background-color: #e8f4fd; /* light blue background */
+    border-left: 10px solid #3498db; /* blue border on the left */
+    margin-top: 40px; /* space above the fact box */
+    border-radius: 12px; /* rounded corners */
+    padding: 30px; /* padding inside the box */
+}
+
