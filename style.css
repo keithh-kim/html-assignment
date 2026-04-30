@@ -94,3 +94,15 @@ nav a:hover {
 html {
     scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
+
+main {
+    flex: 1; 
+    padding: 40px;
+    /* Use the solid color first so the dots have something to sit on */
+    background-color: #fdfaf6; 
+    /* The dots */
+    background-image: radial-gradient(#d7ccc8 0.5px, transparent 0.5px);
+    background-size: 20px 20px;
+    
+    /* Remove the rgba background-color here unless you WANT it to be see-through */
+}
