@@ -11,6 +11,7 @@ body {
     font-size: medium; /* large font size */
     background-color: #f4f7f6; /* light gray background */
     display: flex;
+    height: 100vh;
     
 }
 /* Styling the navigation */
@@ -18,7 +19,7 @@ nav {
     flex: 0 0 250px;    /* This says: "Stay exactly 250px wide, don't shrink!" */
     background-color: #664930;
     color: white;
-    height: 100vh;      /* Makes it full screen height */
+    /* height: 100vh;      Makes it full screen height */
     position: sticky;   /* Keeps it there while you scroll */
     top: 0;
     padding: 20px;
@@ -55,7 +56,7 @@ nav a:hover {
 }
 /* Styling the did you know fact box */
 .fact-box {
-    background-color: #CCBEB1; /* light blue background */
+    background-color: #CCBEB1; /* light coffee color */
     border-left: 10px solid #1e1c1d; /* blue border on the left */
     margin-top: 40px; /* space above the fact box */
     border-radius: 12px; /* rounded corners */
@@ -71,7 +72,7 @@ nav a:hover {
 
 .fact-text {
     margin-top: 0; /* remove default margin */
-    color: #2c3e50; /* dark blue text */
+    color: #1e1c1d; /* dark blue text */
 }
 
 .fact-image {
@@ -82,7 +83,8 @@ nav a:hover {
 }
 
 .coffee-footer {
-    margin-top: 50px; /* space above the footer */
+    margin-top:
+     50px; /* space above the footer */
     border-top: 1px solid #a1887f; /* light brown border on top */
     padding: 20px; /* padding inside the footer */
     color: #5d4037; /* A medium coffee brown */
@@ -99,9 +101,9 @@ main {
     flex: 1; 
     padding: 40px;
     /* Use the solid color first so the dots have something to sit on */
-    background-color: #fdfaf6; 
+    
     /* The dots */
-    background-image: radial-gradient(#d7ccc8 0.5px, transparent 0.5px);
+    background-image: radial-gradient(#d7ccc8 0.5px, transparent 1.3px);
     background-size: 20px 20px;
     
     /* Remove the rgba background-color here unless you WANT it to be see-through */
