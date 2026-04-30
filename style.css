@@ -90,3 +90,7 @@ nav a:hover {
     letter-spacing: 0.5px; /* add some spacing between letters */
     text-align: center; /* center the text in the footer */
 }
+
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
